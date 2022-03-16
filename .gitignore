@@ -1,6 +1,6 @@
 vendor/
 var/
-testdox.html
+testdoxold.html
 .phpunit.result.cache
 .idea
 html-coverage
