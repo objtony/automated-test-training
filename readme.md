@@ -12,7 +12,3 @@ docker-compose run --rm phpunit --testdox tests
 ```
 php src/App/Commands/script.php <param>
 ```
-### docker:
-```
-php src/App/Commands/script.php <param>
-```
