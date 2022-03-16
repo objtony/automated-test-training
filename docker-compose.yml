@@ -21,7 +21,6 @@ services:
       - .:/app
     working_dir: /app
     entrypoint: vendor/bin/phpunit
-    #command: /bin/sh -c "ls"
   fpm:
     image: php:7.4-fpm
     restart: always
