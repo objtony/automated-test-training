@@ -2,3 +2,4 @@ vendor/
 var/
 testdox.html
 .phpunit.result.cache
+.idea
