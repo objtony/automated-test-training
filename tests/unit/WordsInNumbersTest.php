@@ -7,6 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \App\WordsInNumbers
+ * @covers \App\Number\Number
+ * @covers \App\Multiples\MultipleOf3or5
  */
 final class WordsInNumbersTest extends TestCase
 {

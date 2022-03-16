@@ -7,6 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \App\HappyNumber
+ * @covers \App\Number\Number
  */
 final class HappyNumberTest extends TestCase
 {

@@ -10,6 +10,9 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \App\Multiples
+ * @covers \App\Multiples\MultipleOf3or5
+ * @covers \App\Multiples\MultipleOf3and5
+ * @covers \App\Multiples\MultipleOf3or5and7
  */
 final class MultiplesTest extends TestCase
 {
