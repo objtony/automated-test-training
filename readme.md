@@ -6,6 +6,8 @@ docker-compose  up -d
 ```
 docker-compose run --rm phpunit --testdox tests 
 ```
+# Coverage report:
+```/html-coverage/index.html```
 
 ## Command to run happy numbers: 
 ### local:

@@ -3,3 +3,4 @@ var/
 testdox.html
 .phpunit.result.cache
 .idea
+html-coverage
