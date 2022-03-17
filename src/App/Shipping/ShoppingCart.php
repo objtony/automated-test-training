@@ -15,7 +15,6 @@ class ShoppingCart
 
     public function addItem(Product $item): void
     {
-        // verificar se item já foi adicionado
         $this->items[] = $item;
     }
 

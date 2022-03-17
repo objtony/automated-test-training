@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 final class MultiplesTest extends TestCase
 {
     /**
-     * @dataProvider DataProvider3or5
+     * @dataProvider dataProvider3or5
      */
     public function testShouldBeValidWhenTheSumIsEqualMultipleOf3or5($value, $expected)
     {
@@ -25,7 +25,7 @@ final class MultiplesTest extends TestCase
         $this->assertEquals($expected, $multiples->calculate(new MultipleOf3or5(), $value));
     }
 
-    public function DataProvider3or5()
+    public function dataProvider3or5()
     {
         return [
             ['value' => 1000, 'expected' => 233168],
@@ -34,7 +34,7 @@ final class MultiplesTest extends TestCase
     }
 
     /**
-     * @dataProvider DataProvider3and5
+     * @dataProvider dataProvider3and5
      */
     public function testShouldBeValidWhenTheSumIsEqualMultipleOf3and5($value, $expected)
     {
@@ -42,7 +42,7 @@ final class MultiplesTest extends TestCase
         $this->assertEquals($expected, $multiples->calculate(new MultipleOf3and5(), $value));
     }
 
-    public function DataProvider3and5()
+    public function dataProvider3and5()
     {
         return [
             ['value' => 1000, 'expected' => 33165],
@@ -51,7 +51,7 @@ final class MultiplesTest extends TestCase
     }
 
     /**
-     * @dataProvider DataProvider3or5and7
+     * @dataProvider dataProvider3or5and7
      */
     public function testShouldBeValidWhenTheSumIsEqualMultipleOf3or5and7($value, $expected)
     {
@@ -59,7 +59,7 @@ final class MultiplesTest extends TestCase
         $this->assertEquals($expected, $multiples->calculate(new MultipleOf3or5and7(), $value));
     }
 
-    public function DataProvider3or5and7()
+    public function dataProvider3or5and7()
     {
         return [
             ['value' => 1000, 'expected' => 33173],
