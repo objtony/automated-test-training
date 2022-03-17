@@ -7,10 +7,10 @@ class User
     private string $name;
     private string $zipCode;
 
-    public function __construct(string $name, string $cep)
+    public function __construct(string $name, string $zipCode)
     {
         $this->name = $name;
-        $this->zipCode = $cep;
+        $this->zipCode = $zipCode;
     }
 
     public function getName(): string
